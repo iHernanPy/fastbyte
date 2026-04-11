@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FastByte - Optimización de computadoras y servicios de informática profesionales">
+    <title>FastByte | Optimización y Mantenimiento de Computadoras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logotipo.png" type="image/png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="logotipo.png" alt="FastByte Logo" class="logo">
+                <span>FastByte</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <img src="PORTADA.png" alt="FastByte Hero" class="hero-image">
+            <div class="hero-text">
+                <h1>Tu Computadora, <span class="highlight">Maximizada</span></h1>
+                <p>Optimización profesional, velocidad garantizada y mantenimiento experto para tu equipo</p>
+                <button class="cta-button">Solicitar Análisis Gratuito</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="icon">⚡</div>
+                    <h3>Optimización de Sistema</h3>
+                    <p>Limpieza profunda, eliminación de archivos temporales y optimización de rendimiento para máxima velocidad</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="icon">🛡️</div>
+                    <h3>Seguridad y Antivirus</h3>
+                    <p>Protección contra malware, virus y amenazas cibernéticas. Escaneos completos y actualizaciones constantes</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="icon">🔧</div>
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>Revisiones periódicas, actualización de drivers y componentes para evitar problemas futuros</p>
+                </div>
+                
+                <div class="servicio-card">
+                    <div class="icon">📱</div>
+                    <h3>Soporte Técnico 24/7</h3>
+                    <p>Asistencia remota y presencial disponible para resolver tus problemas rápidamente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventajas -->
+    <section id="ventajas" class="ventajas">
+        <div class="container">
+            <h2>¿Por qué elegir FastByte?</h2>
+            <div class="ventajas-grid">
+                <div class="ventaja-item">
+                    <h4>Experiencia Profesional</h4>
+                    <p>Más de 7 años en el sector de informática y optimización de sistemas</p>
+                </div>
+                <div class="ventaja-item">
+                    <h4>Resultados Garantizados</h4>
+                    <p>Notarás la diferencia en velocidad y rendimiento desde el primer día</p>
+                </div>
+                <div class="ventaja-item">
+                    <h4>Precios Competitivos</h4>
+                    <p>Servicios de calidad a precios accesibles para todos</p>
+                </div>
+                <div class="ventaja-item">
+                    <h4>Atención Personalizada</h4>
+                    <p>Analizamos tu situación específica y ofrecemos soluciones a medida</p>
+                </div>
+                <div class="ventaja-item">
+                    <h4>Seguridad de Datos</h4>
+                    <p>Tus datos están protegidos con los más altos estándares de seguridad</p>
+                </div>
+                <div class="ventaja-item">
+                    <h4>Respuesta Rápida</h4>
+                    <p>Nos comunicamos contigo de inmediato y solucionamos problemas urgentes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estadísticas 
+    <section class="estadisticas">
+        <div class="container">
+            <div class="stat">
+                <h3>10,000+</h3>
+                <p>Clientes Satisfechos</p>
+            </div>
+            <div class="stat">
+                <h3>15,000+</h3>
+                <p>Computadoras Optimizadas</p>
+            </div>
+            <div class="stat">
+                <h3>99%</h3>
+                <p>Tasa de Satisfacción</p>
+            </div>
+            <div class="stat">
+                <h3>24/7</h3>
+                <p>Soporte Disponible</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contáctanos Hoy</h2>
+            <div class="contacto-content">
+                <form class="contacto-form" id="contactForm">
+                    <input type="text" name="nombre" placeholder="Nombre:" required>
+                    <input type="email" name="email" placeholder="Email:" required>
+                    <input type="tel" name="telefono" placeholder="Teléfono (Opcional):" >
+                    <textarea name="mensaje" placeholder="Describe tu problema o consulta:" rows="5" required></textarea>
+                    <button type="submit" class="submit-button">Enviar Mensaje</button>
+                </form>
+                <div class="contacto-info">
+                    <a href="https://wa.me/524445725569" target="_blank" class="info-item whatsapp-button">
+                        <strong>💬 WhatsApp:</strong>
+                        <p>Chatea con nosotros ahora</p>
+                        <span class="whatsapp-icon">Abrir WhatsApp →</span>
+                    </a>
+                    <div class="info-item">
+                        <strong>📧 Email:</strong>
+                        <p>hernanssj27@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>📍 Ubicación:</strong>
+                        <p>Cárdenas, S.L.P</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>⏰ Horario:</strong>
+                        <p>Lunes a Viernes: 9:00 - 18:00<br>Sábado: 10:00 - 14:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 FastByte. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="#privacy">Política de Privacidad</a>
+                <a href="#terms">Términos de Servicio</a>
+                <a href="#cookies">Política de Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
