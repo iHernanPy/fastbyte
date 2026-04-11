@@ -1,4 +1,4 @@
-// Inicializar EmailJS (IMPORTANTE: Cambiar por tu Public Key)
+// Inicializar EmailJS 
 emailjs.init("VAhcSiMzaywQgJvZK");
 
 // Toggle del menú móvil
